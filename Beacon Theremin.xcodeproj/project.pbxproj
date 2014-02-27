@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3715B943162F23330026E296 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3715B942162F23330026E296 /* UIKit.framework */; };
+		3715B945162F23330026E296 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3715B944162F23330026E296 /* Foundation.framework */; };
+		3715B947162F23330026E296 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3715B946162F23330026E296 /* CoreGraphics.framework */; };
+		3715B94D162F23330026E296 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3715B94B162F23330026E296 /* InfoPlist.strings */; };
+		3715B94F162F23330026E296 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3715B94E162F23330026E296 /* main.m */; };
+		3715B953162F23330026E296 /* MAGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3715B952162F23330026E296 /* MAGAppDelegate.m */; };
+		3715B955162F23330026E296 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3715B954162F23330026E296 /* Default.png */; };
+		3715B957162F23330026E296 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3715B956162F23330026E296 /* Default@2x.png */; };
+		3715B959162F23330026E296 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3715B958162F23330026E296 /* Default-568h@2x.png */; };
+		3715B95C162F23330026E296 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3715B95A162F23330026E296 /* MainStoryboard_iPhone.storyboard */; };
+		3715B95F162F23330026E296 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3715B95D162F23330026E296 /* MainStoryboard_iPad.storyboard */; };
+		3715B962162F23330026E296 /* MAGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3715B961162F23330026E296 /* MAGViewController.m */; };
+		3715B96A162F23330026E296 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3715B969162F23330026E296 /* SenTestingKit.framework */; };
+		3715B96B162F23330026E296 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3715B942162F23330026E296 /* UIKit.framework */; };
+		3715B96C162F23330026E296 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3715B944162F23330026E296 /* Foundation.framework */; };
+		3715B974162F23340026E296 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3715B972162F23340026E296 /* InfoPlist.strings */; };
+		3715B977162F23340026E296 /* Mobile_Music_TemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3715B976162F23340026E296 /* Mobile_Music_TemplateTests.m */; };
+		3715B993162F2F540026E296 /* libpd-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3715B98D162F27620026E296 /* libpd-ios.a */; };
+		3715B995162F2FA80026E296 /* mag_template.pd in Resources */ = {isa = PBXBuildFile; fileRef = 3715B994162F2FA80026E296 /* mag_template.pd */; };
+		3715B9A2162F42C70026E296 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3715B9A1162F42C70026E296 /* AudioToolbox.framework */; };
+		3715B9A4162F42CD0026E296 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3715B9A3162F42CD0026E296 /* AVFoundation.framework */; };
+		377611F118BEABB600E21C9A /* iTheremin.pd in Resources */ = {isa = PBXBuildFile; fileRef = 377611F018BEABB600E21C9A /* iTheremin.pd */; };
+		377611FA18BEAE8B00E21C9A /* libEstimoteSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 377611F918BEAE8B00E21C9A /* libEstimoteSDK.a */; };
+		377611FC18BEAEB200E21C9A /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377611FB18BEAEB200E21C9A /* CoreBluetooth.framework */; };
+		377611FE18BEAEBC00E21C9A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377611FD18BEAEBC00E21C9A /* CoreLocation.framework */; };
+		3776120018BEAEC400E21C9A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377611FF18BEAEC400E21C9A /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3715B96D162F23330026E296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3715B935162F23330026E296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3715B93D162F23330026E296;
+			remoteInfo = "Mobile Music Template";
+		};
+		3715B98C162F27620026E296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3715B984162F27620026E296 /* libpd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = "libpd-ios";
+		};
+		3715B98E162F27620026E296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3715B984162F27620026E296 /* libpd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 119013AB1486450C00086F19;
+			remoteInfo = "libpd-osx";
+		};
+		3715B991162F2F290026E296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3715B984162F27620026E296 /* libpd.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = "libpd-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3715B93E162F23330026E296 /* Beacon Theremin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beacon Theremin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3715B942162F23330026E296 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3715B944162F23330026E296 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3715B946162F23330026E296 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3715B94A162F23330026E296 /* Beacon Theremin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Beacon Theremin-Info.plist"; sourceTree = "<group>"; };
+		3715B94C162F23330026E296 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3715B94E162F23330026E296 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3715B950162F23330026E296 /* Beacon Theremin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Beacon Theremin-Prefix.pch"; sourceTree = "<group>"; };
+		3715B951162F23330026E296 /* MAGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGAppDelegate.h; sourceTree = "<group>"; };
+		3715B952162F23330026E296 /* MAGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGAppDelegate.m; sourceTree = "<group>"; };
+		3715B954162F23330026E296 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3715B956162F23330026E296 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3715B958162F23330026E296 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3715B95B162F23330026E296 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		3715B95E162F23330026E296 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		3715B960162F23330026E296 /* MAGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGViewController.h; sourceTree = "<group>"; };
+		3715B961162F23330026E296 /* MAGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGViewController.m; sourceTree = "<group>"; };
+		3715B968162F23330026E296 /* Beacon ThereminTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beacon ThereminTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3715B969162F23330026E296 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3715B971162F23340026E296 /* Beacon ThereminTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Beacon ThereminTests-Info.plist"; sourceTree = "<group>"; };
+		3715B973162F23340026E296 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3715B975162F23340026E296 /* Mobile_Music_TemplateTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mobile_Music_TemplateTests.h; sourceTree = "<group>"; };
+		3715B976162F23340026E296 /* Mobile_Music_TemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mobile_Music_TemplateTests.m; sourceTree = "<group>"; };
+		3715B984162F27620026E296 /* libpd.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libpd.xcodeproj; path = libpd/libpd.xcodeproj; sourceTree = "<group>"; };
+		3715B994162F2FA80026E296 /* mag_template.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mag_template.pd; sourceTree = "<group>"; };
+		3715B9A1162F42C70026E296 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3715B9A3162F42CD0026E296 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		377611F018BEABB600E21C9A /* iTheremin.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iTheremin.pd; sourceTree = "<group>"; };
+		377611F418BEAE8B00E21C9A /* ESTBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeacon.h; sourceTree = "<group>"; };
+		377611F518BEAE8B00E21C9A /* ESTBeaconDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconDefinitions.h; sourceTree = "<group>"; };
+		377611F618BEAE8B00E21C9A /* ESTBeaconManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconManager.h; sourceTree = "<group>"; };
+		377611F718BEAE8B00E21C9A /* ESTBeaconRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconRegion.h; sourceTree = "<group>"; };
+		377611F818BEAE8B00E21C9A /* ESTBeaconUpdateInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconUpdateInfo.h; sourceTree = "<group>"; };
+		377611F918BEAE8B00E21C9A /* libEstimoteSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEstimoteSDK.a; sourceTree = "<group>"; };
+		377611FB18BEAEB200E21C9A /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		377611FD18BEAEBC00E21C9A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		377611FF18BEAEC400E21C9A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3715B93B162F23330026E296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3776120018BEAEC400E21C9A /* SystemConfiguration.framework in Frameworks */,
+				377611FE18BEAEBC00E21C9A /* CoreLocation.framework in Frameworks */,
+				377611FC18BEAEB200E21C9A /* CoreBluetooth.framework in Frameworks */,
+				3715B9A4162F42CD0026E296 /* AVFoundation.framework in Frameworks */,
+				3715B9A2162F42C70026E296 /* AudioToolbox.framework in Frameworks */,
+				3715B993162F2F540026E296 /* libpd-ios.a in Frameworks */,
+				3715B943162F23330026E296 /* UIKit.framework in Frameworks */,
+				3715B945162F23330026E296 /* Foundation.framework in Frameworks */,
+				3715B947162F23330026E296 /* CoreGraphics.framework in Frameworks */,
+				377611FA18BEAE8B00E21C9A /* libEstimoteSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3715B964162F23330026E296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3715B96A162F23330026E296 /* SenTestingKit.framework in Frameworks */,
+				3715B96B162F23330026E296 /* UIKit.framework in Frameworks */,
+				3715B96C162F23330026E296 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3715B933162F23330026E296 = {
+			isa = PBXGroup;
+			children = (
+				3715B9A3162F42CD0026E296 /* AVFoundation.framework */,
+				3715B9A1162F42C70026E296 /* AudioToolbox.framework */,
+				3715B994162F2FA80026E296 /* mag_template.pd */,
+				377611F018BEABB600E21C9A /* iTheremin.pd */,
+				3715B984162F27620026E296 /* libpd.xcodeproj */,
+				3715B948162F23330026E296 /* Beacon Theremin */,
+				3715B96F162F23330026E296 /* Beacon ThereminTests */,
+				3715B941162F23330026E296 /* Frameworks */,
+				3715B93F162F23330026E296 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3715B93F162F23330026E296 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3715B93E162F23330026E296 /* Beacon Theremin.app */,
+				3715B968162F23330026E296 /* Beacon ThereminTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3715B941162F23330026E296 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				377611FF18BEAEC400E21C9A /* SystemConfiguration.framework */,
+				377611FD18BEAEBC00E21C9A /* CoreLocation.framework */,
+				377611FB18BEAEB200E21C9A /* CoreBluetooth.framework */,
+				3715B942162F23330026E296 /* UIKit.framework */,
+				3715B944162F23330026E296 /* Foundation.framework */,
+				3715B946162F23330026E296 /* CoreGraphics.framework */,
+				3715B969162F23330026E296 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3715B948162F23330026E296 /* Beacon Theremin */ = {
+			isa = PBXGroup;
+			children = (
+				377611F218BEAE8B00E21C9A /* EstimoteSDK */,
+				3715B951162F23330026E296 /* MAGAppDelegate.h */,
+				3715B952162F23330026E296 /* MAGAppDelegate.m */,
+				3715B95A162F23330026E296 /* MainStoryboard_iPhone.storyboard */,
+				3715B95D162F23330026E296 /* MainStoryboard_iPad.storyboard */,
+				3715B960162F23330026E296 /* MAGViewController.h */,
+				3715B961162F23330026E296 /* MAGViewController.m */,
+				3715B949162F23330026E296 /* Supporting Files */,
+			);
+			name = "Beacon Theremin";
+			path = "Mobile Music Template";
+			sourceTree = "<group>";
+		};
+		3715B949162F23330026E296 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3715B94A162F23330026E296 /* Beacon Theremin-Info.plist */,
+				3715B94B162F23330026E296 /* InfoPlist.strings */,
+				3715B94E162F23330026E296 /* main.m */,
+				3715B950162F23330026E296 /* Beacon Theremin-Prefix.pch */,
+				3715B954162F23330026E296 /* Default.png */,
+				3715B956162F23330026E296 /* Default@2x.png */,
+				3715B958162F23330026E296 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3715B96F162F23330026E296 /* Beacon ThereminTests */ = {
+			isa = PBXGroup;
+			children = (
+				3715B975162F23340026E296 /* Mobile_Music_TemplateTests.h */,
+				3715B976162F23340026E296 /* Mobile_Music_TemplateTests.m */,
+				3715B970162F23340026E296 /* Supporting Files */,
+			);
+			name = "Beacon ThereminTests";
+			path = "Mobile Music TemplateTests";
+			sourceTree = "<group>";
+		};
+		3715B970162F23340026E296 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3715B971162F23340026E296 /* Beacon ThereminTests-Info.plist */,
+				3715B972162F23340026E296 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3715B985162F27620026E296 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3715B98D162F27620026E296 /* libpd-ios.a */,
+				3715B98F162F27620026E296 /* libpd-osx.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		377611F218BEAE8B00E21C9A /* EstimoteSDK */ = {
+			isa = PBXGroup;
+			children = (
+				377611F318BEAE8B00E21C9A /* Headers */,
+				377611F918BEAE8B00E21C9A /* libEstimoteSDK.a */,
+			);
+			path = EstimoteSDK;
+			sourceTree = "<group>";
+		};
+		377611F318BEAE8B00E21C9A /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				377611F418BEAE8B00E21C9A /* ESTBeacon.h */,
+				377611F518BEAE8B00E21C9A /* ESTBeaconDefinitions.h */,
+				377611F618BEAE8B00E21C9A /* ESTBeaconManager.h */,
+				377611F718BEAE8B00E21C9A /* ESTBeaconRegion.h */,
+				377611F818BEAE8B00E21C9A /* ESTBeaconUpdateInfo.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3715B93D162F23330026E296 /* Beacon Theremin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3715B97A162F23340026E296 /* Build configuration list for PBXNativeTarget "Beacon Theremin" */;
+			buildPhases = (
+				3715B93A162F23330026E296 /* Sources */,
+				3715B93B162F23330026E296 /* Frameworks */,
+				3715B93C162F23330026E296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3715B992162F2F290026E296 /* PBXTargetDependency */,
+			);
+			name = "Beacon Theremin";
+			productName = "Mobile Music Template";
+			productReference = 3715B93E162F23330026E296 /* Beacon Theremin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3715B967162F23330026E296 /* Beacon ThereminTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3715B97D162F23340026E296 /* Build configuration list for PBXNativeTarget "Beacon ThereminTests" */;
+			buildPhases = (
+				3715B963162F23330026E296 /* Sources */,
+				3715B964162F23330026E296 /* Frameworks */,
+				3715B965162F23330026E296 /* Resources */,
+				3715B966162F23330026E296 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3715B96E162F23330026E296 /* PBXTargetDependency */,
+			);
+			name = "Beacon ThereminTests";
+			productName = "Mobile Music TemplateTests";
+			productReference = 3715B968162F23330026E296 /* Beacon ThereminTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3715B935162F23330026E296 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAG;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = MAG;
+			};
+			buildConfigurationList = 3715B938162F23330026E296 /* Build configuration list for PBXProject "Beacon Theremin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3715B933162F23330026E296;
+			productRefGroup = 3715B93F162F23330026E296 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3715B985162F27620026E296 /* Products */;
+					ProjectRef = 3715B984162F27620026E296 /* libpd.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				3715B93D162F23330026E296 /* Beacon Theremin */,
+				3715B967162F23330026E296 /* Beacon ThereminTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3715B98D162F27620026E296 /* libpd-ios.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libpd-ios.a";
+			remoteRef = 3715B98C162F27620026E296 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3715B98F162F27620026E296 /* libpd-osx.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libpd-osx.a";
+			remoteRef = 3715B98E162F27620026E296 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3715B93C162F23330026E296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3715B94D162F23330026E296 /* InfoPlist.strings in Resources */,
+				3715B955162F23330026E296 /* Default.png in Resources */,
+				3715B957162F23330026E296 /* Default@2x.png in Resources */,
+				377611F118BEABB600E21C9A /* iTheremin.pd in Resources */,
+				3715B959162F23330026E296 /* Default-568h@2x.png in Resources */,
+				3715B95C162F23330026E296 /* MainStoryboard_iPhone.storyboard in Resources */,
+				3715B95F162F23330026E296 /* MainStoryboard_iPad.storyboard in Resources */,
+				3715B995162F2FA80026E296 /* mag_template.pd in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3715B965162F23330026E296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3715B974162F23340026E296 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3715B966162F23330026E296 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3715B93A162F23330026E296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3715B94F162F23330026E296 /* main.m in Sources */,
+				3715B953162F23330026E296 /* MAGAppDelegate.m in Sources */,
+				3715B962162F23330026E296 /* MAGViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3715B963162F23330026E296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3715B977162F23340026E296 /* Mobile_Music_TemplateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3715B96E162F23330026E296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3715B93D162F23330026E296 /* Beacon Theremin */;
+			targetProxy = 3715B96D162F23330026E296 /* PBXContainerItemProxy */;
+		};
+		3715B992162F2F290026E296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libpd-ios";
+			targetProxy = 3715B991162F2F290026E296 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3715B94B162F23330026E296 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3715B94C162F23330026E296 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3715B95A162F23330026E296 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3715B95B162F23330026E296 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		3715B95D162F23330026E296 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3715B95E162F23330026E296 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		3715B972162F23340026E296 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3715B973162F23340026E296 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3715B978162F23340026E296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3715B979162F23340026E296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3715B97B162F23340026E296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mobile Music Template/Beacon Theremin-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/Mobile\\ Music\\ Template/EstimoteSDK/Headers",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "Mobile Music Template/Beacon Theremin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/allison/Documents/_Programming/iOS/iBeacons/Beacon\\ Theremin/Mobile\\ Music\\ Template/EstimoteSDK",
+				);
+				PRODUCT_NAME = "Beacon Theremin";
+				USER_HEADER_SEARCH_PATHS = "libpd/**";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/Mobile\\ Music \\ Template/EstimoteSDK/Headers/** libpd/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3715B97C162F23340026E296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mobile Music Template/Beacon Theremin-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/Mobile\\ Music\\ Template/EstimoteSDK/Headers",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "Mobile Music Template/Beacon Theremin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/allison/Documents/_Programming/iOS/iBeacons/Beacon\\ Theremin/Mobile\\ Music\\ Template/EstimoteSDK",
+				);
+				PRODUCT_NAME = "Beacon Theremin";
+				USER_HEADER_SEARCH_PATHS = "libpd/**";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/Mobile\\ Music \\ Template/EstimoteSDK/Headers/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3715B97E162F23340026E296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mobile Music Template.app/Mobile Music Template";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mobile Music Template/Mobile Music Template-Prefix.pch";
+				INFOPLIST_FILE = "Mobile Music TemplateTests/Beacon ThereminTests-Info.plist";
+				PRODUCT_NAME = "Beacon ThereminTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3715B97F162F23340026E296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mobile Music Template.app/Mobile Music Template";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mobile Music Template/Mobile Music Template-Prefix.pch";
+				INFOPLIST_FILE = "Mobile Music TemplateTests/Beacon ThereminTests-Info.plist";
+				PRODUCT_NAME = "Beacon ThereminTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3715B938162F23330026E296 /* Build configuration list for PBXProject "Beacon Theremin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3715B978162F23340026E296 /* Debug */,
+				3715B979162F23340026E296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3715B97A162F23340026E296 /* Build configuration list for PBXNativeTarget "Beacon Theremin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3715B97B162F23340026E296 /* Debug */,
+				3715B97C162F23340026E296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3715B97D162F23340026E296 /* Build configuration list for PBXNativeTarget "Beacon ThereminTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3715B97E162F23340026E296 /* Debug */,
+				3715B97F162F23340026E296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3715B935162F23330026E296 /* Project object */;
+}
