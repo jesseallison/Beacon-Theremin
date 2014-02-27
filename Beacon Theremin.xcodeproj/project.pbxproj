@@ -532,7 +532,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/allison/Documents/_Programming/iOS/iBeacons/Beacon\\ Theremin/Mobile\\ Music\\ Template/EstimoteSDK",
+					"$(SRCROOT)/Mobile\\ Music\\ Template/EstimoteSDK/**",
 				);
 				PRODUCT_NAME = "Beacon Theremin";
 				USER_HEADER_SEARCH_PATHS = "libpd/**";
@@ -555,7 +555,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/allison/Documents/_Programming/iOS/iBeacons/Beacon\\ Theremin/Mobile\\ Music\\ Template/EstimoteSDK",
+					"$(SRCROOT)/Mobile\\ Music\\ Template/EstimoteSDK/**",
 				);
 				PRODUCT_NAME = "Beacon Theremin";
 				USER_HEADER_SEARCH_PATHS = "libpd/**";
